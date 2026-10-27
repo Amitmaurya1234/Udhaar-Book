@@ -54,6 +54,10 @@ button:disabled { opacity: .45; cursor: not-allowed; }
 .summary-small.green, .green { color: var(--green); }
 .summary-small.red, .red { color: var(--red); }
 .single-summary { display: block; text-align: left; }
+.mini-recovery { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 10px 0 0; }
+.mini-recovery > div { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 10px; border-radius: 10px; background: #f7faf9; }
+.mini-recovery span { color: var(--muted); font-size: 11px; }
+.mini-recovery strong { font-size: 13px; }
 .summary-links { display: grid; grid-template-columns: 1fr 1fr; margin: 16px -17px -17px; background: var(--teal-soft); }
 .summary-links button { min-height: 48px; border: 0; border-top: 1px solid var(--line); background: transparent; color: var(--teal-dark); font-weight: 900; }
 .summary-links button + button { border-left: 1px solid var(--line); }
